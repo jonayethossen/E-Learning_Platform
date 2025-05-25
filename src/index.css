@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 @theme {
+  /* orange */
   --color-primary: #fd661f;
+  /* teal */
   --color-secondary: #0b7077;
+  /* Charcoal Blue-Gray for body color  */
   --color-tertiary: #2e303a;
+  /* Charcoal Blue-Gray for nav color  */
   --color-quaternary: #2b2d38;
+  /* Heading color  */
+  --color-htext: #15202e;
+
+  --font-Montserrat: "Rajdhani", sans-serif;
 }
