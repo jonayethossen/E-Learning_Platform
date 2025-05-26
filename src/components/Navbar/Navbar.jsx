@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo section  */}
           <img src={Logo} alt="Logo" />
           {/* Menu section  */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <ul className="flex items-center gap-12  ">
               {NavbarMenu.map((item) => {
                 return (
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Humburger Menu section  */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <IoMdMenu className="text-4xl text-white" />
           </div>
         </div>
