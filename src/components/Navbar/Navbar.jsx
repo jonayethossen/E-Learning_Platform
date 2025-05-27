@@ -3,8 +3,10 @@ import { NavbarMenu } from "./../../MockData/data";
 import { IoMdMenu } from "react-icons/io";
 import Logo from "../../assets/logo.png";
 import NavPhoto from "../../assets/navPhoto.png";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 const Navbar = () => {
+  const [open, setOpen] = React.useState(false);
   return (
     <>
       <nav className="bg-quaternary border-b-1 border-white">
@@ -32,11 +34,15 @@ const Navbar = () => {
 
           {/* Mobile Humburger Menu section  */}
           <div className="lg:hidden">
-            <IoMdMenu className="text-4xl text-white" />
+            <IoMdMenu
+              className="text-4xl text-white "
+              onClick={() => setOpen(!open)}
+            />
           </div>
         </div>
       </nav>
       {/* Mobile slide ber section  */}
+      <ResponsiveMenu />
     </>
   );
 };

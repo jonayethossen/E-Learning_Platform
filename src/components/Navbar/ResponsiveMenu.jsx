@@ -1,8 +1,7 @@
 import React from "react";
-import { NavbarMenu } from "./../../MokeData/data";
 
 const ResponsiveMenu = () => {
-  return <div></div>;
+  return <div>jonayet</div>;
 };
 
 export default ResponsiveMenu;
