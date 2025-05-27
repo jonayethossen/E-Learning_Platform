@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
       </nav>
       {/* Mobile slide ber section  */}
-      <ResponsiveMenu />
+      <ResponsiveMenu open={open} />
     </>
   );
 };
