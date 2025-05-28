@@ -1,26 +1,35 @@
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
+import { NavbarMenu } from "./../../MockData/data";
 
 const ResponsiveMenu = ({ open }) => {
   return (
     <AnimatePresence>
       {open && (
-        <motion.dev
+        <motion.div
+          key="responsive-menu"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="absolute top-20 left=0 w-full h-screen z-20 "
+          className="absolute top-14 right-0 w-full text-center  py-8 h-screen -z-1 "
         >
-          <div className="text-white font-medium text-lg font-Montserrat bg-primary py-10 m-6">
-            <ul>
-              <li>Home</li>
-              <li>All Courses</li>
-              <li>Categories</li>
-              <li>About Us</li>
-              <li>Contact</li>
+          <div className="text-white font-medium text-lg font-Montserrat bg-tertiary  rounded-b-2xl  ">
+            <ul className="flex flex-col space-y-3 py-6 ">
+              {NavbarMenu.map((item) => {
+                return (
+                  <li key={item.id}>
+                    <a
+                      href={item.link}
+                      className="hover:text-primary cursor-pointer transition-all duration-200"
+                    >
+                      {item.title}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
-        </motion.dev>
+        </motion.div>
       )}
     </AnimatePresence>
   );

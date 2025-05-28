@@ -9,8 +9,11 @@ const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   return (
     <>
-      <nav className="bg-quaternary border-b-1 border-white">
-        <div className=" container xl:max-w-[1320px] px-6  py-8 flex justify-between items-center mx-auto">
+      <nav
+        className="bg-quaternary border-b-1 border-white z-10"
+        aria-level="Main Navigation"
+      >
+        <div className=" container xl:max-w-[1320px] px-6  py-6 flex justify-between items-center mx-auto ">
           {/* Logo section  */}
           <img src={Logo} alt="Logo" />
           {/* Menu section  */}
@@ -28,7 +31,7 @@ const Navbar = () => {
                   </li>
                 );
               })}
-              <img src={NavPhoto} alt="NavPhoto" />
+              <img src={NavPhoto} alt="Navigation Decorative Photo" />
             </ul>
           </div>
 
