@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Humburger Menu section  */}
-          <div className="lg:hidden">
+          <div className="lg:hidden ">
             <IoMdMenu
               className="text-4xl text-white "
               onClick={() => setOpen(!open)}
