@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+
+/* custom theme variables */
 @theme {
   /* orange */
   --color-primary: #fd661f;
@@ -12,5 +14,12 @@
   /* Heading color  */
   --color-htext: #15202e;
 
-  --font-Montserrat: "Rajdhani", sans-serif;
+  /* fonts  */
+  --font-Montserrat: "Montserrat", sans-serif;
+  --font-Roboto: "Roboto", sans-serif;
+}
+@layer components {
+  .primary-btn {
+    @apply bg-red-500 text-white font-Roboto font-bold px-5 py-5;
+  }
 }
