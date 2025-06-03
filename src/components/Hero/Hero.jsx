@@ -7,6 +7,8 @@ import ReviewImage_2 from "../../assets/Review_2.png";
 import ReviewImage_3 from "../../assets/Review_3.png";
 import HeroImage from "../../assets/hero_Image.png";
 
+import SearchBar from "./SearchBar";
+
 const Hero = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const Hero = () => {
               Learn New <span className="bg-primary ">Skills.</span> Build Your{" "}
               <span className="bg-secondary">Future.</span>
             </h1>
-            <p className="mt-[24px] font-Roboto text-xl lg:text-base font-normal lg:w-full w-[327px] lg:leading-relaxed leading-normal lg:tracking-[0.32px]">
+            <p className="mt-[24px] font-Roboto lg:text-xl text-base font-normal lg:w-full w-[327px] lg:leading-relaxed leading-normal ">
               Explore thousands of online courses from top instructors
               worldwide.
             </p>
@@ -26,7 +28,7 @@ const Hero = () => {
               {/* Button & Review  */}
               <button className="primary-btn">Browse Courses</button>
               <div className="flex">
-                <div className="flex">
+                <div className="flex -space-x-3">
                   <img src={ReviewImage_1} alt="ReviewImage_1" />
                   <img src={ReviewImage_2} alt="ReviewImage_1" />
                   <img src={ReviewImage_3} alt="ReviewImage_1" />
@@ -44,10 +46,10 @@ const Hero = () => {
               </div>
             </div>
             {/* search box */}
-            <div></div>
+            <SearchBar />
           </div>
           {/* Brand Image  */}
-          <img src={HeroImage} alt="HeroImage" className="py-20" />
+          <img src={HeroImage} alt="HeroImage" className="py-20  ml-6" />
         </div>
       </section>
     </>

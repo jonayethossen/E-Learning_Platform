@@ -22,4 +22,8 @@
   .primary-btn {
     @apply bg-primary text-white font-Montserrat font-semibold text-lg px-6 py-[10px];
   }
+
+  .search-btn {
+    @apply bg-primary text-white font-Montserrat font-semibold text-sm px-4 py-3;
+  }
 }
