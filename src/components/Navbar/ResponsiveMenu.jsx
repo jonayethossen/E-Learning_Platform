@@ -8,13 +8,13 @@ const ResponsiveMenu = ({ open }) => {
       {open && (
         <motion.div
           key="responsive-menu"
-          initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -100 }}
-          transition={{ duration: 0.3 }}
-          className="absolute top-14 right-0 w-full text-center  py-8 h-screen z-[-1] "
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.2 }}
+          className="absolute top-14 right-0 w-full text-center  py-8 h-screen  "
         >
-          <div className="text-white font-medium text-lg font-Montserrat bg-tertiary  rounded-b-2xl lg:hidden  ">
+          <div className="text-white font-medium text-lg font-Montserrat bg-tertiary  rounded-b-2xl xl:hidden  ">
             <ul className="flex flex-col space-y-3 py-6 ">
               {NavbarMenu.map((item) => {
                 return (
