@@ -1,6 +1,7 @@
 import React from "react";
-import { NavbarMenu } from "./../../MockData/data";
+
 import { motion, AnimatePresence } from "framer-motion";
+import { NavMenu } from "../../MockData/navData";
 
 const ResponsiveMenu = ({ open }) => {
   return (
@@ -16,7 +17,7 @@ const ResponsiveMenu = ({ open }) => {
         >
           <div className="text-white font-medium text-lg font-Montserrat bg-tertiary  rounded-b-2xl xl:hidden  ">
             <ul className="flex flex-col space-y-3 py-6 ">
-              {NavbarMenu.map((item) => {
+              {NavMenu.map((item) => {
                 return (
                   <li key={item.id}>
                     <a

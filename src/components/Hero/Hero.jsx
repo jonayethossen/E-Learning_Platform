@@ -26,20 +26,20 @@ const Hero = () => {
             </p>
             <div className="py-12 flex ">
               {/* Button & Review  */}
-              <button className="primary-btn">Browse Courses</button>
-              <div className="flex">
-                <div className="flex -space-x-3">
+              <button className="primary-btn mr-6">Browse Courses</button>
+              <div className="flex gap-6">
+                <div className="flex -space-x-3 ">
                   <img src={ReviewImage_1} alt="ReviewImage_1" />
                   <img src={ReviewImage_2} alt="ReviewImage_1" />
                   <img src={ReviewImage_3} alt="ReviewImage_1" />
                 </div>
-                <div>
-                  <div className="flex">
-                    <IoIosStar />
-                    <IoIosStar />
-                    <IoIosStar />
-                    <IoIosStar />
-                    <IoIosStarHalf />
+                <div className="flex flex-col items-center justify-center ">
+                  <div className="flex ">
+                    <IoIosStar className="size-6" />
+                    <IoIosStar className="size-6" />
+                    <IoIosStar className="size-6" />
+                    <IoIosStar className="size-6" />
+                    <IoIosStarHalf className="size-6" />
                   </div>
                   <h2>( 10k+ Reviews)</h2>
                 </div>
@@ -49,7 +49,13 @@ const Hero = () => {
             <SearchBar />
           </div>
           {/* Brand Image  */}
-          <img src={HeroImage} alt="HeroImage" className="py-20  ml-6" />
+          <div className="flex  items-center justify-center">
+            <img
+              src={HeroImage}
+              alt="HeroImage"
+              className="py-20  ml-6 w-[648px] "
+            />
+          </div>
         </div>
       </section>
     </>

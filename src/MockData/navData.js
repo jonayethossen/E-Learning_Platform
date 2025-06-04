@@ -1,6 +1,4 @@
-import { title } from "framer-motion/client";
-
-export const NavbarMenu = [
+export const NavMenu = [
   {
     id: 1,
     title: "Home",
