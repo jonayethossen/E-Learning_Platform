@@ -8,7 +8,7 @@ const App = () => {
     <div className="overflow-x-hidden ">
       <Navbar />
       <Hero />
-      <Courses />
+      {/* <Courses /> */}
     </div>
   );
 };
