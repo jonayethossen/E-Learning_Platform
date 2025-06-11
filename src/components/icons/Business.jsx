@@ -1,10 +1,8 @@
 import React from "react";
-// import { CoursesData } from "../../MockData/CoursesData";
 
-const Courses = () => {
+const Business = () => {
   return (
-    <section>
-      <div><svg
+    <svg
       xmlns="http://www.w3.org/2000/svg"
       width="48"
       height="48"
@@ -34,9 +32,8 @@ const Courses = () => {
           <rect width="48" height="48" fill="white" />
         </clipPath>
       </defs>
-    </svg></div>
-    </section>
+    </svg>
   );
 };
 
-export default Courses;
+export default Business;
