@@ -17,7 +17,6 @@
   /* fonts  */
   --font-Montserrat: "Montserrat", sans-serif;
   --font-Roboto: "Roboto", sans-serif;
-  
 }
 @layer components {
   .primary-btn {
