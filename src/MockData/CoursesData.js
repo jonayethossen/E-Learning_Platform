@@ -1,6 +1,44 @@
 export const CoursesData = [
     {
-        id=1,
-        title:"Development"
+        id:1,
+        title:"Development",
+        link:"#",
+        icon:"",
+        delay:0.2,
+    },
+    {
+        id:2,
+        title:"UI/UX Design",
+        link:"#",
+        icon:"",
+        delay:0.3,
+    },
+    {
+        id:3,
+        title:"Business",
+        link:"#",
+        icon:"",
+        delay:0.4,
+    },
+    {
+        id:4,
+        title:"Marketing",
+        link:"#",
+        icon:"",
+        delay:0.5,
+    },
+    {
+        id:5,
+        title:"Photography",
+        link:"#",
+        icon:"",
+        delay:0.6,
+    },
+    {
+        id:6,
+        title:"Video Editing",
+        link:"#",
+        icon:"",
+        delay:0.7,
     }
 ];

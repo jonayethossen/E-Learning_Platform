@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <>
       <section className="bg-tertiary  ">
-        <div className="container xl:max-w-[1320px] grid grid-cols-1 lg:grid-cols-2 mx-auto min-h-[816px] px-6 ">
+        <div className=" xl:max-w-[1320px] grid grid-cols-1 lg:grid-cols-2 mx-auto min-h-[816px] px-6 ">
           {/* Brand Info  */}
           <div className="text-white text-center lg:text-left flex flex-col justify-center items-center lg:items-start py-12 lg:py-20 ">
             <h1 className="font-Montserrat text-7xl font-bold leading-[100px] tracking-[1.40px] max-w-[648px] ">

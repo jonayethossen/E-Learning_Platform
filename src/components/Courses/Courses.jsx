@@ -4,7 +4,9 @@ import React from "react";
 const Courses = () => {
   return (
     <section>
-      <div></div>
+    <div className="max-w-[1320px] px-6 mx-auto ">
+      <div className="grid-col-6"></div>
+    </div>
     </section>
   );
 };
