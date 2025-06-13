@@ -26,4 +26,7 @@
   .search-btn {
     @apply bg-primary text-white font-Montserrat font-semibold text-sm px-4 py-3;
   }
+  .containers {
+    @apply max-w-[1320px] mx-auto px-6;
+  }
 }
