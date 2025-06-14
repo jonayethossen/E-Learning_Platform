@@ -2,8 +2,9 @@ import React from "react";
 
 const TopCoures = () => {
   return (
-    <section className="bg-white min-h-[1410px] pt-[98px] ">
+    <section className="bg-white min-h-screen pt-[98px] ">
       <div className="containers ">
+        {/* header section  */}
         <div className="flex flex-col items-center justify-center text-center pt-[80px] gap-3">
           <h1 className="text-5xl font-semibold font-Montserrat w-[666px] text-[#101010]">
             Top Courses Recommended for You
@@ -13,6 +14,7 @@ const TopCoures = () => {
             preferences and future ambitions.
           </h2>
         </div>
+        {/* Top Courses Grid  */}
       </div>
     </section>
   );
