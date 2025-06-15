@@ -15,7 +15,9 @@ const TopCoures = () => {
           </h2>
         </div>
         {/* Top Courses Grid  */}
-        <div className="grid grid-cols-3 gap-6"></div>
+        <div className="grid grid-cols-3 gap-6">
+          <card className="bg-white"></card>
+        </div>
       </div>
     </section>
   );

@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
 
           {/* -----------------------Course section----------------------  */}
-          <div className="grid grid-cols-6 gap-6 absolute top-[856px] ">
+          <div className="grid grid-cols-6 gap-6 absolute top-[856px] px-6 ">
             {CoursesData.map((courses) => (
               <div
                 key={courses.id}
