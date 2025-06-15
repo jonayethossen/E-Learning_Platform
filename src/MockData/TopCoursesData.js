@@ -1,9 +1,16 @@
+import GraphicDesignImg from "../assets/topCourses/GraphicDesign.png";
+import UiUxImg from "../assets/topCourses/UIUX.png";
+import MernImg from "../assets/topCourses/Mern.png";
+import DigitalMarketing from "../assets/topCourses/DigitalMarketing.png";
+import WordPressImg from "../assets/topCourses/WordPress.png";
+import ReactImg from "../assets/topCourses/React.png";
+
 export const TopCoursesData = [
   {
     id: 1,
     title: "Graphic Design Masterclass",
     instructor: "Saifur Rahman",
-    image: "",
+    image: GraphicDesignImg,
     rating: 4.9,
     reviews: 560,
     price: 99,
@@ -16,7 +23,7 @@ export const TopCoursesData = [
     id: 2,
     title: "UI-UX Design",
     instructor: "Saifur Rahman",
-    image: "",
+    image: UiUxImg,
     rating: 4.9,
     reviews: 560,
     price: 99,
@@ -29,7 +36,7 @@ export const TopCoursesData = [
     id: 3,
     title: "MERN Stack Development",
     instructor: "Saifur Rahman",
-    image: "",
+    image: MernImg,
     rating: 4.9,
     reviews: 560,
     price: 99,
@@ -42,7 +49,7 @@ export const TopCoursesData = [
     id: 4,
     title: "Digital Marketing Specialist",
     instructor: "Saifur Rahman",
-    image: "",
+    image: DigitalMarketing,
     rating: 4.9,
     reviews: 560,
     price: 99,
@@ -55,7 +62,7 @@ export const TopCoursesData = [
     id: 5,
     title: "WordPress Development",
     instructor: "Saifur Rahman",
-    image: "",
+    image: WordPressImg,
     rating: 4.9,
     reviews: 560,
     price: 99,
@@ -68,7 +75,7 @@ export const TopCoursesData = [
     id: 6,
     title: "Development With React",
     instructor: "Saifur Rahman",
-    image: "",
+    image: ReactImg,
     rating: 4.9,
     reviews: 560,
     price: 99,
