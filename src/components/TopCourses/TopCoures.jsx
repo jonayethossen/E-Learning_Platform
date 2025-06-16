@@ -1,4 +1,5 @@
 import React from "react";
+import { TopCoursesData } from "./../../MockData/TopCoursesData";
 
 const TopCoures = () => {
   return (
@@ -16,7 +17,9 @@ const TopCoures = () => {
         </div>
         {/* Top Courses Grid  */}
         <div className="grid grid-cols-3 gap-6">
-          <card className="bg-white"></card>
+          {TopCoursesData.map((topCourse) => (
+            <Card key={topCourse.id}></Card>
+          ))}
         </div>
       </div>
     </section>
