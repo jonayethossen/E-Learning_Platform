@@ -18,7 +18,9 @@ const TopCoures = () => {
         {/* Top Courses Grid  */}
         <div className="grid grid-cols-3 gap-6">
           {TopCoursesData.map((topCourse) => (
-            <Card key={topCourse.id}></Card>
+            <Card key={topCourse.id}>
+              <img src={topCourse.image} alt="" />
+            </Card>
           ))}
         </div>
       </div>
