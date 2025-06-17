@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import TopCoures from "./components/TopCourses/TopCoures";
 import LearnUs from "./components/LearnUs/LearnUs";
+import WorksSystem from "./components/WorksSystem/WorksSystem";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Hero />
       <TopCoures />
       <LearnUs />
-      <TopCoures />
+      <WorksSystem />
     </div>
   );
 };
