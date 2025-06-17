@@ -27,6 +27,7 @@ const TopCoures = () => {
                 className="w-[393px] flex flex-col gap-3  "
               >
                 <img src={topCourse.image} alt={topCourse.title} />
+                {/* cousres info  */}
                 <div className="flex justify-between items-center  ">
                   <span className="font-Poppins font-normal text-base text-[#525252]">
                     Batch {topCourse.batchNo}{" "}
@@ -38,6 +39,7 @@ const TopCoures = () => {
                     </span>
                   </div>
                 </div>
+                {/* Courses statas */}
                 <div className="flex justify-between items-center mb-3">
                   <div className="flex items-center">
                     <RiTeamFill className="fill-primary size-5 mr-2" />
@@ -52,6 +54,7 @@ const TopCoures = () => {
                     </span>
                   </div>
                 </div>
+                {/* Courses Title & Instructor  */}
                 <h1 className="font-semibold font-Poppins text-2xl text-[#15202E]">
                   {topCourse.title}
                 </h1>
@@ -64,6 +67,7 @@ const TopCoures = () => {
                     {topCourse.instructor}
                   </h2>
                 </div>
+                {/* Courses Price  */}
                 <div className="flex gap-2 items-center">
                   <h2 className="text-4xl text-primary font-Montserrat font-bold ">
                     ${topCourse.price}
@@ -72,6 +76,7 @@ const TopCoures = () => {
                     ${topCourse.orginalPrice}
                   </h3>
                 </div>
+                {/* Enroll Button  */}
                 <button className="primary-btn w-[392px]">Enroll Now</button>
               </div>
             </div>
