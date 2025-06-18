@@ -21,7 +21,10 @@ const TopCoures = () => {
         {/* Top Courses Grid  */}
         <div className="grid grid-cols-3 gap-6 pt-[48px]">
           {TopCoursesData.map((topCourse) => (
-            <div className="w-[424px] p-4 mx-auto border border-[#D4D4D4] rounded-2xl  ">
+            <div
+              key={topCourse.id}
+              className="w-[424px] p-4 mx-auto border border-[#D4D4D4] rounded-2xl  "
+            >
               <div
                 key={topCourse.id}
                 className="w-[393px] flex flex-col gap-3  "
