@@ -4,7 +4,7 @@ import { StudentsData } from "../../MockData/StudentsData";
 const StudentsSaying = () => {
   return (
     <section className="bg-white">
-      <div className="containers  py-[80px]">
+      <div className="containers py-[80px]">
         {/* header text */}
         <div className="text-center">
           <h1 className="font-Montserrat font-semibold text-5xl text-[#101010]">

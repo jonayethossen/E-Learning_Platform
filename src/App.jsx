@@ -5,6 +5,7 @@ import TopCoures from "./components/TopCourses/TopCoures";
 import LearnUs from "./components/LearnUs/LearnUs";
 import WorksSystem from "./components/WorksSystem/WorksSystem";
 import StudentsSaying from "./components/StudentsSaying/StudentsSaying";
+import SuccessRate from "./components/SuccessRate/SuccessRate";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <LearnUs />
       <WorksSystem />
       <StudentsSaying />
+      <SuccessRate />
     </div>
   );
 };
