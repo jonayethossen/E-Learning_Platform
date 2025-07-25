@@ -7,7 +7,7 @@ const SuccessRate = () => {
     <section>
       {/* background  */}
       <div className="bg-secondary min-h-[495px]  ">
-        {/* backgorund shape  */}
+        {/* backgorud shape  */}
         <div className=" relative z-1  ">
           <div className="absolute left-0">
             <ShapeOne />
@@ -28,12 +28,12 @@ const SuccessRate = () => {
             </p>
           </div>
           {/* Icon  */}
-          <div className="relative">
+          <div className="grid grid-cols-3">
             {SuccessData.map((success) => {
               const Icon = success.icon;
               return (
-                <div key={success.id} className="grid grid-cols-3 relative">
-                  <div className="bg-[rgba(255,255,255,0.25)]">
+                <div key={success.id} className="">
+                  <div className="bg-[rgba(255,255,255,0.25)] p-6">
                     <Icon />
                   </div>
                 </div>
